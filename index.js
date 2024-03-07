@@ -1,5 +1,7 @@
+// question 1
 let a = "Extravaganza";
 console.log(a[8],a[9], a[10],a[11]);
+// question 2
 
 const food =  "The quick fox jumped over the lazy dog";
 let b = "eat";
@@ -7,7 +9,7 @@ let b = "eat";
 const c = `The ${b} quick for jumped over the lazy dog`;
 console.log({c});
 
-
+// question 3
 const story= "The quick brown fox jumps over the lazy dog";
 let d = "The quick brown fox jumps over the lazy dog";
 console.log(
@@ -15,7 +17,7 @@ console.log(
 console.log(
     (d.match(/the/g)).length);
 
-
+//question 4
     const string1 = "The pupils are reading in the library";
      let y = string1.indexOf('are');
      console.log({y});
@@ -24,7 +26,7 @@ console.log(
     let x = string2.indexOf('sitting');
     console.log({x});
 
-
+// question 5
 
     let e = "wonderful";
     let f = e.toUpperCase();
